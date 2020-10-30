@@ -7,8 +7,6 @@
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:import/warnings",
-        "plugin:import/errors",
         "prettier/@typescript-eslint"
     ],
     "parser": "@typescript-eslint/parser",
@@ -44,7 +42,9 @@
         "prefer-const": "error",
         "object-curly-spacing": ["error", "always"],
         "no-restricted-imports": "error",
-        "@typescript-eslint/explicit-module-boundary-types": "off",
-        "import/no-unresolved": "off"
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+    },
+    "settings": {
+        "import/resolver": "parcel"
     }
 }
