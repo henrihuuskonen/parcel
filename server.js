@@ -8,7 +8,7 @@ const app = express()
 const ONE_HOUR = 60 * 60
 
 morgan('tiny')
-app.use(favicon(path.join(__dirname, 'public', 'img/favicon.ico')))
+app.use(favicon(path.join(__dirname, 'src/assets', 'img/favicon.ico')))
 app.use(compression())
 app.use(express.static('dist'))
 

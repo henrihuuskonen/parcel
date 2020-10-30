@@ -8,6 +8,8 @@ import {
   TitleContainerTitle,
 } from '~Components/TitleContainer'
 import styled from 'styled-components'
+import AvatarImg from '../assets/img/avatar.png'
+import HeroImg from '../assets/img/hero.jpg'
 
 const StyledTitleContainer = styled(TitleContainer)`
   height: 400px;
@@ -79,16 +81,10 @@ const Hero = () => {
         <TitleContainerParagraph>Hello</TitleContainerParagraph>
       </TitleContainerInner>
       <HeroImageContainer>
-        <HeroImage
-          alt="Wireframe background wallpaper"
-          src="https://t3.ftcdn.net/jpg/02/80/09/80/240_F_280098052_VGr2NfQI6jAXqy7KzBoswbY95yGtp1cB.jpg"
-        />
+        <HeroImage alt="Wireframe background wallpaper" src={HeroImg} />
       </HeroImageContainer>
       <HeroAvatarContainer>
-        <HeroAvatarImage
-          alt="Avatar image of Henri Huuskonen"
-          src="https://www.dropbox.com/s/ysyoqnfqtfhqvjh/henrihuuskonen.png?raw=1"
-        />
+        <HeroAvatarImage alt="Avatar image of Henri Huuskonen" src={AvatarImg} />
       </HeroAvatarContainer>
     </StyledTitleContainer>
   )
