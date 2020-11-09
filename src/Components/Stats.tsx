@@ -8,6 +8,10 @@ import styled from 'styled-components'
 
 const StyledTitleContainer = styled(TitleContainer)`
   margin-right: 20px;
+
+  @media (max-width: 768px) {
+    margin-right: 0;
+  }
 `
 
 const Row = styled.div`
@@ -43,7 +47,7 @@ const data: Data[] = [
   { key: 'Location', value: 'Helsinki, Finland' },
   { key: 'Languages', value: 'Finnish, English' },
   { key: 'Job history' },
-  { value: 'Swappie 01.02.2019 - Present' },
+  { value: 'Swappie 02-2018 - Present' },
 ]
 
 const Stats = () => {

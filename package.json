@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.tsx",
   "scripts": {
-    "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html",
+    "start": "parcel serve --log-level 4 src/index.html --open",
+    "build": "parcel build src/index.html --detailed-report 100",
     "lint:prettier": "prettier --write --config ./.prettierrc.js './*.{js,ts,tsx}'"
   },
   "repository": {
@@ -33,6 +33,7 @@
     "eslint-plugin-react": "^7.21.5",
     "parcel-bundler": "^1.12.4",
     "prettier": "^2.1.2",
+    "pure-react-carousel": "^1.27.6",
     "react-helmet": "^6.1.0",
     "typescript": "^4.0.5"
   },

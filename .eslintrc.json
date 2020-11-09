@@ -42,7 +42,8 @@
         "prefer-const": "error",
         "object-curly-spacing": ["error", "always"],
         "no-restricted-imports": "error",
-        "@typescript-eslint/explicit-module-boundary-types": "off"
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-explicit-any": "off"
     },
     "settings": {
         "import/resolver": "parcel"

@@ -78,7 +78,9 @@ const Hero = () => {
       <TitleContainerInner>
         <TitleContainerName>Henri Huuskonen</TitleContainerName>
         <TitleContainerDivider />
-        <TitleContainerParagraph>Hello</TitleContainerParagraph>
+        <TitleContainerParagraph>
+          Software developer, tech enthusiast & a man of too many projects
+        </TitleContainerParagraph>
       </TitleContainerInner>
       <HeroImageContainer>
         <HeroImage alt="Wireframe background wallpaper" src={HeroImg} />
